@@ -12,9 +12,10 @@
   },
   "dependencies": {
     "@strapi/plugin-cloud": "5.0.1",
-    "@strapi/plugin-users-permissions": "5.0.1",
+    "@strapi/plugin-users-permissions": "^5.16.1",
     "@strapi/provider-upload-aws-s3": "^5.0.1",
-    "@strapi/strapi": "5.0.1",
+    "@strapi/provider-upload-local": "^5.16.1",
+    "@strapi/strapi": "^5.16.1",
     "better-sqlite3": "9.4.3",
     "pg": "^8.13.0",
     "react": "^18.0.0",
@@ -26,6 +27,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "strapi": "^3.6.11",
     "typescript": "^5"
   },
   "engines": {
@@ -34,5 +36,6 @@
   },
   "strapi": {
     "uuid": "ccc08b3a-b6ab-4481-81bf-f3d884e2b458"
-  }
+  },
+  "packageManager": "yarn@3.2.3+sha512.f26f951f67de0c6a33ee381e5ff364709c87e70eb5e65c694e4facde3512f1fa80b8679e6ba31ce7d340fbb46f08dd683af9457e240f25a204be7427940d767e"
 }
